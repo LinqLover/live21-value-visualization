@@ -10,7 +10,7 @@ baseline: spec
 				package: 'SMark'
 					with: [spec file: 'SMark-topa.89';
 						 repository: 'https://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/BenchmarkRunner/'];
-				package: 'Sandblocks' with: [spec repository: 'github://LinqLover/sandblocks:stream-sonyx/packages'];
+				baseline: 'Sandblocks' with: [spec repository: 'github://LinqLover/sandblocks:stream-sonyx/packages'];
 
 				package: 'RuntimeValueVisualization-Core';
 				package: 'RuntimeValueVisualization-Tools' with: [spec requires: #('core' 'Sandblocks')];
